@@ -31,3 +31,5 @@ no_html <- sliced_data_tib %>%
 
 
 saveRDS(no_html,"data/parsed_data.rds")
+
+rm(list=ls())
